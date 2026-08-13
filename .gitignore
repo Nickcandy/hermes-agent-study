@@ -197,3 +197,6 @@ native/fts5_cjk/*.so
 # interrupted; consumed by launch-time recovery. Never commit it (was tracked
 # by accident via 3a69e34702, removed in the #72002 salvage).
 .lazy-refresh-incomplete
+
+# 学习笔记：understand-anything 的中间分析产物不入库（知识图谱正式文件保留）
+.understand-anything/intermediate/
