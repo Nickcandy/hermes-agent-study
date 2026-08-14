@@ -1,0 +1,50 @@
+<svg viewBox="0 0 680 470" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif">
+  <rect x="0" y="0" width="680" height="470" rx="14" fill="#fbfbfa"/>
+  <text x="24" y="36" font-size="19" font-weight="700" fill="#1f1f1f">Hermes 学习地图 · 核心已闭环</text>
+  <text x="24" y="58" font-size="12.5" fill="#6b6b6b">左侧是「心脏 + 主要手脚」，已经走完；右侧是「更边缘的专门领域」，看兴趣选</text>
+
+  <!-- 左：已闭环 -->
+  <text x="30" y="92" font-size="13" font-weight="700" fill="#2e7d32">✔ 已闭环（核心）</text>
+  <g font-size="12" fill="#333">
+    <rect x="30" y="102" width="290" height="40" rx="8" fill="#f2fbf3" stroke="#a5d6a7"/>
+    <text x="44" y="120" font-weight="700">阶段 0 · 能力接入</text>
+    <text x="44" y="136" font-size="11" fill="#666">Tool / Skill / MCP 三条链 + 行为验证</text>
+    <rect x="30" y="148" width="290" height="40" rx="8" fill="#f2fbf3" stroke="#a5d6a7"/>
+    <text x="44" y="166" font-weight="700">A · 上下文组装</text>
+    <text x="44" y="182" font-size="11" fill="#666">四通道 + sidecar + 说明书三档</text>
+    <rect x="30" y="194" width="290" height="40" rx="8" fill="#f2fbf3" stroke="#a5d6a7"/>
+    <text x="44" y="212" font-weight="700">B · 缓存 + 压缩</text>
+    <text x="44" y="228" font-size="11" fill="#666">字节稳定 + cache_control + 保两头压中间</text>
+    <rect x="30" y="240" width="290" height="40" rx="8" fill="#f2fbf3" stroke="#a5d6a7"/>
+    <text x="44" y="258" font-weight="700">C · 学习 / 窄腰</text>
+    <text x="44" y="274" font-size="11" fill="#666">沉淀成 memory / skill，核心极简能力在边缘</text>
+    <rect x="30" y="286" width="290" height="40" rx="8" fill="#f2fbf3" stroke="#a5d6a7"/>
+    <text x="44" y="304" font-weight="700">D · 持久化 + 子代理</text>
+    <text x="44" y="320" font-size="11" fill="#666">SQLite 会话库 + 委派（模型拆解/代码调度）</text>
+    <rect x="30" y="332" width="290" height="40" rx="8" fill="#f2fbf3" stroke="#a5d6a7"/>
+    <text x="44" y="350" font-weight="700">安全 · 敏感信息屏蔽</text>
+    <text x="44" y="366" font-size="11" fill="#666">正则涂改液，守住日志/终端/文件读取</text>
+  </g>
+
+  <!-- 右：可选广度 -->
+  <text x="360" y="92" font-size="13" font-weight="700" fill="#8a6d1a">◌ 可选广度（看兴趣）</text>
+  <g font-size="12" fill="#333">
+    <rect x="360" y="102" width="290" height="40" rx="8" fill="#fffdf2" stroke="#e0d08a" stroke-dasharray="4 3"/>
+    <text x="374" y="120" font-weight="700">多模型适配器</text>
+    <text x="374" y="136" font-size="11" fill="#666">怎么跟 OpenAI / Anthropic / Gemini 打交道</text>
+    <rect x="360" y="148" width="290" height="40" rx="8" fill="#fffdf2" stroke="#e0d08a" stroke-dasharray="4 3"/>
+    <text x="374" y="166" font-weight="700">消息平台 gateway</text>
+    <text x="374" y="182" font-size="11" fill="#666">怎么连 Telegram / 微信 / Discord（20+ 平台）</text>
+    <rect x="360" y="194" width="290" height="40" rx="8" fill="#fffdf2" stroke="#e0d08a" stroke-dasharray="4 3"/>
+    <text x="374" y="212" font-weight="700">定时任务 cron</text>
+    <text x="374" y="228" font-size="11" fill="#666">怎么自己定时跑活、后台复习</text>
+    <rect x="360" y="240" width="290" height="40" rx="8" fill="#fffdf2" stroke="#e0d08a" stroke-dasharray="4 3"/>
+    <text x="374" y="258" font-weight="700">桌面端 / TUI</text>
+    <text x="374" y="274" font-size="11" fill="#666">前端界面长什么样（apps/ 1487 个文件）</text>
+  </g>
+
+  <!-- 底部建议 -->
+  <rect x="30" y="392" width="620" height="56" rx="10" fill="#eef4ff" stroke="#b8cdf0"/>
+  <text x="44" y="414" font-size="12.5" font-weight="700" fill="#2a5db0">建议</text>
+  <text x="44" y="434" font-size="12" fill="#444">对「搞懂 Hermes 怎么运转」这个目标，你已经到顶了。剩下的是广度不是深度。</text>
+</svg>
